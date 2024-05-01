@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>rock-paper-scissors</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="main.js"></script>
+ </head> 
+ 
+ <body>
+   <div id="gamecontainer">
+     <center>
+     <br>
+     <h1>Rock-Paper-Scissors</h1>
+     <h3>Choose your option </h3>
+     <button class="keys" onclick="game('rock')">
+      <img src="https://cdn1.iconfinder.com/data/icons/gesture-21/384/Fist-512.png" class="image" alt="Rock">
+     </button>
+     
+     <button class="keys" onclick="game('paper')">
+     <img src="https://cdn2.iconfinder.com/data/icons/hand-gestures-1-1/128/Five-Fingers-Expression-Five-Gesture-Hand-512.png" class="image" alt="Paper">
+     </button>
+     <button class="keys" onclick="game('scissors')">
+       <img src="https://cdn2.iconfinder.com/data/icons/hand-gestures-2-1/128/Scissor-Hand-Finger-Gesture-Gesture-Scissors-256.png" class="image" alt = "Scissors">
+     </button>
+     <h3>Computer</h3>
+     <button class="keys">
+      <img src="https://th.bing.com/th/id/OIP.H7-Yl9Tv_945VKcsdlUvrAHaHa?w=157&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" id="result" class="image">
+     </button>
+     <p id="display" style="font-style: bold;font-size: 30px;">Result appears here</p>
+     <button id="reset_button" onclick="reset()">
+      <b>Reset</b>
+     </button>
+     <br><br><br>
+    </center>
+   </div>
+ </body>
+</html>
